@@ -1,0 +1,168 @@
+#pic{
+    width: 410px;
+    margin-top: 100px;
+    margin-left: 165px;
+}
+#location{
+    margin-left: 860px;
+    margin-top: -400px;
+}
+#text1{
+    font-size: 100px;
+    font-weight: bold;
+    margin: -11px 0px;
+}
+#text2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: -1px 0px;
+}
+#text3{
+    font-size: 16px;
+    color: rgb(121, 121, 121);
+}
+#txt{
+    width: 343px;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid rgb(163, 163, 163);
+    padding-left: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#txt:hover{
+    box-shadow: 1px 1px 5px 1px rgb(145,64,250);
+}
+#error{
+    display: block;
+    margin-left: 5px;
+}
+#button{
+    width: 100px;
+    height: 33px;
+    border-radius: 20px;
+    background-color: rgb(145,64,250);
+    border: 0;
+    color: white;
+    font-size: 13px;
+    display: block;
+    margin-top: 15px;
+}
+#button:hover{
+    cursor: pointer;
+    color:rgb(145,64,250) ;
+    border:4px double rgb(145,64,250);
+    background-color: white;
+    transition-duration: 0.4s
+}
+
+
+
+
+#pic2{
+    box-shadow: 5px 10px 8px #888888;
+    left: 7%;
+    top: 26%;
+    border-radius: 30px;
+    display:none;
+    width: 1350px;
+    height: 650px;
+    margin-top: -150px;
+    margin-left: -8px;
+    position: absolute;
+    z-index: -1;
+}
+#locinput2{
+   position: absolute;
+   top: 25%;
+   left: 37%;
+}
+#enternumber1{
+    display:none;
+    width: 350px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.432) ;
+    border-color: rgba(95, 95, 95, 0.09);
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+#btncheck{
+    display:none;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.432) ;
+    border-color: rgba(95, 95, 95, 0.09);
+    text-align: center;
+    color: white;    
+    cursor: pointer;
+}
+#locerror{
+    margin-left: 580px;
+    margin-top: 10px;
+}
+#errorr{
+    position: absolute;
+    display: none;
+    left: 38%;
+    top: 30%;
+}
+#changeloc{
+    position: absolute;
+    top: 10%;
+   left: 48%;
+}
+#timer{
+    display: none;
+    background-color: rgba(2, 2, 2, 0);
+    color: rgb(255, 255, 255);  
+    font-size: 50px;
+}
+
+
+.grid-container {
+    grid-template-columns: 200px 200px 200px 200px;
+    background-color: #2195f300;
+    padding: 5px;
+    gap: 5px;
+}
+.grid-item {
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+}
+#gride{
+    display: none;
+    position:absolute;
+    left: 25%;
+    top: 48%;
+}
+#numberOfGamesPlayedID{
+    display: none;
+    font-size: 30px;
+    color:rgb(145,64,250) ;
+    border-bottom:4px double rgb(145,64,250) ;
+    position: absolute;
+    left: 45%;
+    top: 53%;
+}
+#valplayer{
+    display: none;
+    font-size: 20px;
+    color:rgb(145,64,250) ;
+    position: absolute;
+    left: 8%;
+    top: -1%;
+}
+#winLose{
+    position: absolute;
+    font-size: 18px;
+    left: 48.2%;
+    top: 16%;
+}
